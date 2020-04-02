@@ -1,0 +1,121 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabeçalho {
+    background-image: linear-gradient(to right, #53A9FF, #328DE8);
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valores-wrapper {
+    height: 10%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cifrao-valores {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.valores {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.icon {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.container-centro {
+    height: 70%;
+    width: 90%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.carteiras-wrapper {
+    height: 50%;
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #53A9FF69;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carteira {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icone-carteira-wrapper {
+    height: 45px;
+    width: 45px;
+    background-image: linear-gradient(to right, #53A9FF, #328DE8);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-carteira {
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.nome-carteira-wrapper {
+    height: 45px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.carteiras {
+    color: #707070;
+    font-weight: 700;
+}
+
+.nome-carteira {
+    color: #707070;
+}
+
+.valor-carteira-wrapper {
+    height: 45px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cifrao-carteira {
+    color: #53A9FF;
+    font-weight: 700;
+}
+
+.valor-carteira {
+    color: #53A9FF;
+}
