@@ -265,3 +265,137 @@
     border-radius: 50px;
     transform: translateY(-20px)
 }
+
+.container2 {
+    height: 100%;
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho2 {
+    height: 6%;
+    width: 100%;
+    background-image: linear-gradient(to right, #328DE8, #328DE8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botao-receita {
+    height: 100%;
+    width: 30%;
+    background-image: linear-gradient(to right, #328DE899, #328DE899);
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-despesa {
+    height: 100%;
+    width: 30;
+    background-image: linear-gradient(to right, #328DE8, #328DE8);
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-transferencia {
+    height: 100%;
+    width: 39%;
+    background-image: linear-gradient(to right, #328DE8, #328DE8);
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valor-wrapper {
+    height: 33%;
+    width: 100%;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cifrao-receita {
+    color: #53FFB9;
+    font-size: 2.2em;
+    font-weight: 700;
+    transform: translateY(-20px)
+}
+
+.valor-receita {
+    color: #53FFB9;
+    font-size: 2.2em;
+    transform: translateY(-20px)
+}
+
+.botao-discador-wrapper {
+    height: 55%;
+    width: 100%;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translateY(-60px);
+}
+
+.discador-wrapper {
+    height: 70%;
+    width: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+
+.botao-numeral-receita {
+    height: 57px;
+    width: 57px;
+    min-width: 57px;
+    min-height: 57px;
+    margin: 10px;
+    border: 3px solid #53A9FF;
+    border-radius: 50px;
+    background-color: #fff;
+    font-size: 2em;
+    color: #53A9FF;
+}
+
+.botao-backspace-receita {
+    height: 57px;
+    width: 57px;
+    min-width: 57px;
+    min-height: 57px;
+    margin: 10px;
+    color: #53A9FF;
+    border: none;
+    background-color: #fff;
+    font-size: 2em;
+}
+
+.botao-continuar-transferencia {
+    height: 11%;
+    width: 50%;
+    border: none;
+    border-radius: 25px;
+    background-color: #53A9FF;
+    color: #fff;
+    font-size: 1.2em;
+}
+
