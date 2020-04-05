@@ -1,12 +1,10 @@
+import Elemento from '../elemento/index.js';
+
 const BoxIcone = {
     build: () => {
-        const container = document.createElement('div');
-        container.classList.add('icone-carteira-wrapper');
+        const container = Elemento({tipo: 'div', classes: ['icone-carteira-wrapper']});
 
-        const icone = document.createElement('i');
-        icone.classList.add('fas');
-        icone.classList.add('fa-wallet');
-        icone.classList.add('icone-carteira');
+        const icone = Elemento({tipo: 'i', classes: ['fas', 'fa-wallet', 'icone-carteira']});
 
         container.appendChild(icone);
 
