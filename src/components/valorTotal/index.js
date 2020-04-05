@@ -1,23 +1,16 @@
+import Elemento from '../shared/elemento/index.js'; 
+
 const ValorTotal = {
     build: () => {
-        const container = document.createElement('header');
-        container.classList.add('cabecalho');
+        const container = Elemento({tipo: 'header', classes: ['cabecalho']});
 
-        const valoresWrapper = document.createElement('div');
-        valoresWrapper.classList.add('valores-wrapper');
+        const valoresWrapper = Elemento({tipo: 'div', classes: ['valores-wrapper']});
 
-        const cifrao = document.createElement('span');
-        cifrao.classList.add('cifrao-valores');
-        cifrao.textContent = 'R$';
+        const cifrao = Elemento({tipo: 'span', classes: ['cifrao-valores'], texto: 'R$'});
 
-        const valor = document.createElement('span');
-        valor.classList.add('valores');
-        valor.textContent = '100.000,00';
+        const valor = Elemento({tipo: 'span', classes: ['valores'], texto: '100.000,00'});
 
-        const icone = document.createElement('i');
-        icone.classList.add('fas');
-        icone.classList.add('fa-crosshairs');
-        icone.classList.add('icon');
+        const icone = Elemento({tipo: 'i', classes: ['fas', 'fa-crosshairs', 'icon']});
 
         container.appendChild(valoresWrapper);
         valoresWrapper.appendChild(cifrao);
