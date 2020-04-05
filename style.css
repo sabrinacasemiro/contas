@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.cabeçalho {
+.cabecalho {
     background-image: linear-gradient(to right, #53A9FF, #328DE8);
     height: 22%;
     width: 100%;
@@ -266,136 +266,301 @@
     transform: translateY(-20px)
 }
 
-.container2 {
+.container-centro2 {
+    height: 70%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    transform: translateY(-20px);
+}
+
+.contas-data1-wrapper {
+    height: 55%;
+    width: 100%;
+    background-color: #fff;
+    border: 1.2px solid #53A9FF69;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    transform: translateY(-5px);
+}
+
+.data-conta {
+    color: #707070;
+    font-weight: 700;
+    font-size: .9em;
+    margin-top: 10px;
+}
+
+.lista-contas-data {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tipo-conta-data {
+    height: 20%;
+    min-height: 20%;
+    width: 100%;
+    min-width: 100%;
+    margin: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icone-conta-data {
+    height: 54px;
+    width: 54px;
+    background-image: linear-gradient(to right, #53A9FF, #328DE8);
+    border-radius: 50px;
+    margin-left: 7px;
+}
+
+.icone-conta-data2 {
+    height: 54px;
+    width: 54px;
+    background-image: linear-gradient(to right, #8053FF, #6F49DB);
+    border-radius: 50px;
+    margin-left: 7px;
+}
+
+.icone-conta-data3 {
+    height: 54px;
+    width: 54px;
+    background-image: linear-gradient(to right, #FF5353, #DE5959);
+    border-radius: 50px;
+    margin-left: 7px;
+}
+
+.tipo-conta-wrapper {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 7px;
+}
+
+.tipo {
+    color: #707070;
+    font-weight: 700;
+}
+
+.conta {
+    color: #707070;
+    font-size: .9em;
+}
+
+.valor-conta-wrapper {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-right: 7px;
+}
+
+.valor {
+    color: #707070;
+    font-weight: 700;
+}
+
+.nao-pago {
+    color: #707070;
+    font-size: .9em;
+}
+
+.contas-data2-wrapper {
+    height: 55%;
+    width: 100%;
+    background-color: #fff;
+    border: 1.2px solid #53A9FF69;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    transform: translateY(10px);
+}
+
+.container-criar-metas {
     height: 100%;
     width: 100%;
-    background-color: #F2F2F2;
+    background-color: #53A9FF4A;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.cabeçalho2 {
-    height: 6%;
-    width: 100%;
-    background-image: linear-gradient(to right, #328DE8, #328DE8);
+.container-centro-3 {
+    height: 90%;
+    width: 97%;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transform: translateY(-35px);
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 2px 0 10px #00000029;
+}
+
+.carteira-criar-metas-wrapper {
+    height: 10%;
+    width: 95%;
+    background-color: #53A9FF38;
+    display: flex;
     justify-content: space-between;
+    transform: translateY(5px);
+    border-radius: 12px;
+    padding-top: 10px;
 }
 
-.botao-receita {
-    height: 100%;
-    width: 30%;
-    background-image: linear-gradient(to right, #328DE899, #328DE899);
-    border: none;
-    color: #fff;
-    font-size: 1.2em;
+.icone-carteira2-wrapper {
+    height: 45px;
+    width: 45px;
+    background-image: linear-gradient(to right, #53A9FF, #328DE8);
+    border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
 }
 
-.botao-despesa {
-    height: 100%;
-    width: 30;
-    background-image: linear-gradient(to right, #328DE8, #328DE8);
-    border: none;
-    color: #fff;
-    font-size: 1.2em;
+.nome-categoria-wrapper {
+    height: 45px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 60px;
+}
+
+.categoria {
+    color: #707070;
+    font-weight: 700;
+}
+
+.nome-categoria {
+    color: #707070;
+}
+
+.icon-plus-wrapper {
+    height: 30px;
+    width: 30px;
+    background-color: #FFF;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px;
 }
 
-.botao-transferencia {
-    height: 100%;
-    width: 39%;
-    background-image: linear-gradient(to right, #328DE8, #328DE8);
-    border: none;
-    color: #fff;
+.icon-plus {
+    color: #53A9FF;
     font-size: 1.2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.valor-wrapper {
-    height: 33%;
-    width: 100%;
+.input-nome-meta {
+    height: 5%;
+    width: 95%;
+    border-radius: 20px;
+    border: 1.4px solid #53A9FF;
+    padding-left: 13px;
+    box-sizing: border-box;
+}
+
+.input-nome-meta::placeholder {
+    color: #53A9FF;
+    font-size: 1.2em;
+}
+
+.final-meta-wrapper {
+    height: 5%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.final-meta {
+    color: #53A9FF;
+    font-size: 1em;
+}
+
+.final-meta-data {
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid #53A9FF;
+   text-align: center;
+     
+}
+
+.final-meta-data::placeholder {
+    color: #53A9FF;
+    font-size: 1.2em;
+}
+
+.valor-criar-meta-wrapper {
+    height: 6%;
+    width: 95%;
     background-color: #EEEEEE;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.cifrao-receita {
-    color: #53FFB9;
-    font-size: 2.2em;
-    font-weight: 700;
-    transform: translateY(-20px)
-}
-
-.valor-receita {
-    color: #53FFB9;
-    font-size: 2.2em;
-    transform: translateY(-20px)
-}
-
-.botao-discador-wrapper {
-    height: 55%;
-    width: 100%;
-    background-color: #FFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    transform: translateY(-60px);
+    border-radius: 10px;
+    color: #53A9FF;
+    font-size: 1.1em;
 }
 
 .discador-wrapper {
-    height: 70%;
-    width: 80%;
-    flex-wrap: wrap;
+    height: 50%;
+    width: 60%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 60px;
 }
 
-.botao-numeral-receita {
-    height: 57px;
-    width: 57px;
-    min-width: 57px;
-    min-height: 57px;
+.numero-discador {
+    height: 45px;
+    width: 45px;
     margin: 10px;
     border: 3px solid #53A9FF;
     border-radius: 50px;
-    background-color: #fff;
-    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #53A9FF;
-}
-
-.botao-backspace-receita {
-    height: 57px;
-    width: 57px;
-    min-width: 57px;
-    min-height: 57px;
-    margin: 10px;
-    color: #53A9FF;
-    border: none;
-    background-color: #fff;
-    font-size: 2em;
-}
-
-.botao-continuar-transferencia {
-    height: 11%;
-    width: 50%;
-    border: none;
-    border-radius: 25px;
-    background-color: #53A9FF;
-    color: #fff;
     font-size: 1.2em;
 }
 
+.icone-backspace {
+    height: 45px;
+    width: 45px;
+    margin: 18px;
+    color: #53A9FF;
+    font-size: 1.7em;
+}
+
+.botao-criar-meta {
+    height: 8%;
+    width: 45%;
+    background-color: #53A9FF;
+    border: none;
+    border-radius: 23px;
+    color: #fff;
+    font-size: 1.2em;
+}
