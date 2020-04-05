@@ -1,8 +1,8 @@
+import Elemento from '../elemento/index.js';
+
 const TituloCard = {
     build: (texto) => {
-        const titulo = document.createElement('h3');
-        titulo.classList.add('carteiras');
-        titulo.textContent = texto;
+        const titulo = Elemento({tipo: 'h3', classes: ['carteiras'], texto});
 
         return titulo;
     },

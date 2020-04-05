@@ -1,7 +1,9 @@
 const Elemento = ({ tipo, classes, texto }) => {
+    if(!tipo) return console.error('Elemento: você não passou o tipo do elemento. Ex.: Elemento({tipo: "div"});');
+    
     const elemento = document.createElement(tipo);
     elemento.textContent = texto;
-    if(classes[0]) classes.map(classe => elemento.classList.add(classe));
+    classes.map(classe => elemento.classList.add(classe));
 
     return elemento;
 }
