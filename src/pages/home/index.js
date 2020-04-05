@@ -1,27 +1,23 @@
 import ValorTotal from '../../components/valorTotal/index.js';
 import Card from '../../components/card/index.js';
 import Metas from '../../components/metas/index.js';
+import Elemento from '../../components/shared/elemento/index.js';
 
 const Home = {
     build: () => {
-        const container = document.createElement('section');
-        container.classList.add('container');
+        const container = Elemento({tipo: 'section', classes: ['container']});
 
         const cabecalho = ValorTotal.build();
 
-        const containerCentro = document.createElement('div');
-        containerCentro.classList.add('container-centro');
+        const containerCentro = Elemento({tipo: 'div', classes: ['container-centro']});
 
-        const boxCarteiras = document.createElement('ul');
-        boxCarteiras.classList.add('carteiras-wrapper');
+        const boxCarteiras = Elemento({tipo: 'ul', classes: ['carteiras-wrapper']});
 
         const carteira = Card.build();
 
-        const boxMetas = document.createElement('div');
-        boxMetas.classList.add('metas-wrapper');
+        const boxMetas = Elemento({tipo: 'div', classes: ['metas-wrapper']});
 
-        const listaMetas = document.createElement('ul');
-        listaMetas.classList.add('lista-metas');
+        const listaMetas = Elemento({tipo: 'ul', classes: ['lista-metas']});
 
         const metas = Metas.build();
         
