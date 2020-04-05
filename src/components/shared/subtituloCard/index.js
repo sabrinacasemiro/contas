@@ -1,8 +1,8 @@
+import Elemento from '../elemento/index.js';
+
 const SubtituloCard = {
     build: (texto) => {
-        const subtitulo = document.createElement('h4');
-        subtitulo.classList.add('nome-carteira');
-        subtitulo.textContent = texto;
+        const subtitulo = Elemento({tipo: 'h4', classes: ['nome-carteira'], texto});
 
         return subtitulo;
     },
