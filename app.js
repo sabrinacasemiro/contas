@@ -9,4 +9,4 @@ const init = () => {
   body.appendChild(home);
 }
 
-// init();
+init();

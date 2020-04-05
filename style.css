@@ -104,6 +104,7 @@
 
 .nome-carteira {
     color: #707070;
+    font-weight: 400;
 }
 
 .valor-carteira-wrapper {
@@ -564,3 +565,70 @@
     color: #fff;
     font-size: 1.2em;
 }
+
+.container-centro-receita {
+    height: 87%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.rdt-wrapper {
+    height: 6%;
+    width: 100%;
+    background-image: linear-gradient(to right, #53A9FF, #328DE8);
+    display: flex;
+}
+
+.botao-receita {
+    height: 100%;
+    width: 30%;
+    background-color: #53A9FF;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.botao-despesa {
+    height: 100%;
+    width: 30%;
+    background-color: #328DE8;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.botao-transferencia {
+    height: 100%;
+    width: 40%;
+    background-color: #328DE8;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.valor-total-receita {
+    height: 25%;
+    width: 100%;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #53FFB9;
+    font-size: 2em;
+}
+
+.cifrao-receita {
+    font-weight: 700;
+}
+
+.discador-receita-wrapper {
+    height: 73%;
+    width: 100%;
+    background-color: #fff;
+    transform: translateY(-12px);
+    box-shadow: 0 3px 6px #00000029;
+}
+
