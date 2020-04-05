@@ -1,15 +1,12 @@
+import Elemento from '../elemento/index.js';
+
 const Valor = {
     build: (valor) => {
-        const valorWrapper = document.createElement('div');
-        valorWrapper.classList.add('valor-carteira-wrapper');
+        const valorWrapper = Elemento({tipo: 'div', classes: ['valor-carteira-wrapper']});
         
-        const moeda = document.createElement('span');
-        moeda.classList.add('cifrao-carteira');
-        moeda.textContent = 'R$ '
+        const moeda = Elemento({tipo: 'span', classes: ['cifrao-carteira'], texto: 'R$'});
 
-        const valorCarteira = document.createElement('span');
-        valorCarteira.classList.add('valor-carteira');
-        valorCarteira.textContent = valor;
+        const valorCarteira = Elemento({tipo: 'span', classes: ['valor-carteira'], texto: '100.000,00'});
 
         valorWrapper.appendChild(moeda);
         valorWrapper.appendChild(valorCarteira);
