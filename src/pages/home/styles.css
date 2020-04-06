@@ -1,0 +1,52 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-centro {
+    height: 70%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    transform: translateY(-40px);
+}
+
+.carteiras-wrapper {
+    height: 55%;
+    width: 100%;
+    background-color: #fff;
+    border: 1.2px solid #53A9FF69;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.metas-wrapper {
+    height: 41%;
+    width: 100%;
+    background-color: #fff;
+    border: 1.2px solid #53A9FF69;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lista-metas {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}

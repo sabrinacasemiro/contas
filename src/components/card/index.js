@@ -3,10 +3,13 @@ import TituloCard from '../shared/tituloCard/index.js';
 import SubtituloCard from '../shared/subtituloCard/index.js';
 import Valor from '../shared/valor/index.js';
 import Elemento from '../shared/elemento/index.js'
+import ImportCss from '../../components/utils/importCss/index.js'
+
+ImportCss('components/card/style.css');
 
 const Card = {
     build: () => {
-        const container = Elemento({ tipo: 'li', classes: ['carteira', 'teste'] });
+        const container = Elemento({ tipo: 'li', classes: ['carteira'] });
 
         const boxIcone = BoxIcone.build();
 

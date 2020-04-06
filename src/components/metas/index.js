@@ -3,6 +3,9 @@ import TituloCard from '../shared/tituloCard/index.js';
 import BarraProgresso from '../shared/barraProgresso/index.js';
 import Valor from '../shared/valor/index.js';
 import Elemento from '../shared/elemento/index.js';
+import ImportCss from '../utils/importCss/index.js';
+
+ImportCss('components/metas/style.css');
 
 const Metas = {
     build: () => {
@@ -13,7 +16,7 @@ const Metas = {
         const wrapperMeta = Elemento({tipo: 'div', classes: ['reserva-wrapper']});
 
         const tituloCard = TituloCard.build('Reserva');
-        
+
         const barraProgresso = BarraProgresso.build();
 
         const valor = Valor.build('100.000,00');

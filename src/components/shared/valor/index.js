@@ -1,4 +1,7 @@
 import Elemento from '../elemento/index.js';
+import ImportCss from '../../utils/importCss/index.js';
+
+ImportCss('components/shared/valor/style.css');
 
 const Valor = {
     build: (valor) => {

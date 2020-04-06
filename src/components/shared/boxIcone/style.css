@@ -1,0 +1,15 @@
+.icone-carteira-wrapper {
+    height: 45px;
+    width: 45px;
+    background-image: linear-gradient(to right, #53A9FF, #328DE8);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+
+.icone-carteira {
+    font-size: 1.5em;
+    color: #FFF;
+}

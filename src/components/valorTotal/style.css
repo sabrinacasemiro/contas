@@ -1,0 +1,32 @@
+.cabecalho {
+    background-image: linear-gradient(to right, #53A9FF, #328DE8);
+    height: 22%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valores-wrapper {
+    height: 10%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cifrao-valores {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.valores {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.icon {
+    color: #fff;
+    font-size: 1.3em;
+}
