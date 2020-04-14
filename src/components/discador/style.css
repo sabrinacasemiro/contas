@@ -1,0 +1,50 @@
+.valor-discador-wrapper {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.valor-criar-meta-wrapper {
+    height: 10%;
+    width: 100%;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #53A9FF;
+    font-size: 1.1em;
+}
+
+.discador-wrapper {
+    height: 50%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.numero-discador {
+    height: 45px;
+    width: 45px;
+    margin: 10px;
+    border: 3px solid #53A9FF;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #53A9FF;
+    font-size: 1.2em;
+    background-color: #fff;
+}
+
+.icone-backspace {
+    height: 45px;
+    width: 45px;
+    margin: 18px;
+    color: #53A9FF;
+    font-size: 1.7em;
+}

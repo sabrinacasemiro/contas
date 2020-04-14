@@ -1,0 +1,112 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-centro-despesa {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* transform: translateY(-5px); */
+}
+
+.data-vencimento-wrapper {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.label-data {
+    color: #53A9FF;
+}
+
+.vencimento {
+    height: 100%;
+    width: 55%;
+    border-radius: 20px;
+    border: 1px solid #53A9FF99;
+    padding-left: 40px;
+    box-sizing: border-box;
+    color: #707070;
+    font-size: 1em;
+}
+
+.parcelas-wrraper {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.label-parcelas {
+    color: #53A9FF;
+    font-size: 1.3em;
+}
+
+.checkbox-wrapper {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.quantidade-parcelas {
+    height: 100%;
+    width: 107px;
+    border: 1px solid #53A9FF99;
+    border-radius: 25px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.quantidade-parcelas::placeholder {
+    color: #707070;
+    font-size: 1.1em;
+}
+
+.checkbox-parcelas {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.checkbox {
+    height: 16px;
+    min-height: 16px;
+    width: 16px;
+    min-width: 16px;
+    border: 2px solid #707070;
+    border-radius: 30px;
+}
+
+.icone-checkbox {
+    color: #707070;
+    transform: translateX(5px) translateY(-2px);
+    font-size: 1em;
+}
+
+.dividir {
+    font-size: 11px;
+    color: #707070;
+    padding-left: 10px;
+}

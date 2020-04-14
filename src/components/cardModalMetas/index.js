@@ -3,11 +3,12 @@ import BoxIcone from '../shared/boxIcone/index.js';
 import TituloCard from '../shared/tituloCard/index.js';
 import SubtituloCard from '../shared/subtituloCard/index.js';
 import ImportCss from '../utils/importCss/index.js';
+import Valor from '../shared/valor/index.js';
 
 ImportCss('components/cardModalMetas/style.css');
 
 const CardModalMetas = {
-    build: () => {
+    build: ({type}) => {
         const cardModalMetas = Elemento({tipo: 'div', classes: ['carteira-criar-metas-wrapper']});
 
         const boxIcone = BoxIcone.build();
@@ -22,11 +23,14 @@ const CardModalMetas = {
         
         const iconePlus = Elemento({tipo: 'i',  classes: ['fas', 'fa-plus', 'icon-plus']});
 
+        const valor = Valor.build('100.000,00');
+
         cardModalMetas.appendChild(boxIcone);
         cardModalMetas.appendChild(wrapperTitulo);
         wrapperTitulo.appendChild(tituloCard);
         wrapperTitulo.appendChild(subtituloCard);
-        cardModalMetas.appendChild(iconePlusWrapper);
+        type === 'categoria' && cardModalMetas.appendChild(iconePlusWrapper);
+        type === 'carteira' && cardModalMetas.appendChild(valor);
         iconePlusWrapper.appendChild(iconePlus);
 
         return cardModalMetas;

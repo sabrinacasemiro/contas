@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Despesa Continuar</title>
+</head>
+<body>
+    <section class="container">
+        <header class="rdt-wrapper">
+            <button class="botao-receita">Receita</button>
+            <button class="botao-despesa">Despesa</button>
+            <button class="botao-transferencia">Transferência</button>
+        </header>
+        <div class="container-centro-despesa">
+            <div class="valor-removivel-wrapper">
+                <span class="x-tag-valor">x</span>
+                <div class="tag-valor">
+                    <span class="cifrao-removivel">R$</span>
+                    <span class="valor-removivel">100.000,00</span>
+                </div>
+            </div>
+            <div class="carteira-criar-metas-wrapper">
+                <div class='icone-carteira2-wrapper'>
+                    <i class="fas fa-wallet icone-carteira"></i>
+                </div>
+                <div class='nome-categoria-wrapper'>
+                    <span class='categoria'>categoria</span>
+                    <span class='nome-categoria'>nome</span>
+                </div>
+                <div class="icon-plus-wrapper">
+                    <i class="fas fa-plus icon-plus"></i>
+                </div>
+            </div>
+            <div class="carteira-criar-metas-wrapper">
+                <div class='icone-carteira2-wrapper'>
+                    <i class="fas fa-wallet icone-carteira"></i>
+                </div>
+                <div class='nome-categoria-wrapper'>
+                    <span class='categoria'>categoria</span>
+                    <span class='nome-categoria'>nome</span>
+                </div>
+                <div class="icon-plus-wrapper">
+                    <i class="fas fa-plus icon-plus"></i>
+                </div>
+            </div>
+            <div class="data-vencimento-wrapper">
+                <label class="label-data">Data</label>
+                <input type="date" class="vencimento">
+            </div>
+            <div class="parcelas-wrraper">
+                <label class="label-parcelas">Parcelas</label>
+                <div class="checkbox-wrapper">
+                    <input placeholder="1 v e z" class="quantidade-parcelas">
+                    <div class="checkbox-parcelas">
+                        <div class="checkbox">
+                            <i class="fas fa-check icone-checkbox"></i>
+                        </div>
+                        <span class="dividir">Dividir Valor</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tags-wrapper">
+                <div class="tag">
+                    <span class="titulo-tag">Tag</span>
+                    <span class="cancelar-tag">X</span>
+                </div>
+                <div class="adicionar-tag">
+                    <span class="texto-adicionar">Adicionar</span>
+                    <i class="fas fa-plus icon-plus"></i>
+                </div>
+            </div>
+            <textarea placeholder="Obs..." class="observacao-despesa"></textarea>
+            <button class="botao-criar-meta">Concluir</button>
+        </div>
+        <div class='container-menu'>
+            <div class="menu">
+                <i class="fas fa-crosshairs icone-menu"></i>
+                <i class="fas fa-crosshairs icone-menu"></i>
+                <button class="botao-menu" ></button>
+                <i class="fas fa-crosshairs icone-menu"></i>
+                <i class="fas fa-crosshairs icone-menu"></i>
+            </div>
+        </div>
+    </section>
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+</body>
+</html>
