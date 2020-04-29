@@ -7,7 +7,7 @@ import Botao from '../../components/shared/botao/index.js';
 import MenuNavegacao from '../../components/menuNavegacao/index.js';
 import ImportCss from '../../components/utils/importCss/index.js';
 
-ImportCss('pages/home/styles.css');
+ImportCss('/pages/despesa/style.css');
 
 const Despesa = {
     build: () => {
@@ -32,7 +32,7 @@ const Despesa = {
         const caixaObservacao = Elemento({tipo: 'textarea', classes: ['observacao-despesa'], placeholder: 'Obs...'});
         const botao = Botao.build('Concluir');
         const menuNavegacao = MenuNavegacao.build();
-        
+
         container.appendChild(cabecalhoMenu);
         container.appendChild(containerCentroDespesa);
         containerCentroDespesa.appendChild(valorTotalDespesa);

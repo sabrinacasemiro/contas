@@ -1,7 +1,8 @@
 import Elemento from '../shared/elemento/index.js';
+import Receita from '../../pages/receita/index.js'
 import ImportCss from '../utils/importCss/index.js';
 
-ImportCss('components/card/style.css');
+ImportCss('components/cabecalhoMenu/style.css');
 
 const CabecalhoMenu = {
     build: () => {
@@ -23,5 +24,4 @@ const CabecalhoMenu = {
 
     }
 }
-
 export default CabecalhoMenu;

@@ -1,0 +1,29 @@
+.discador-receita-wrapper {
+    height: 315px;
+    width: 248px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bota-discador-receita {
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 3px solid #53A9FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    color: #53A9FF;
+    font-size: 2em;
+}
+
+.icone-backspace-receita {
+    font-size: 2em;
+    color: #53A9FF;
+    margin: 20px;
+}

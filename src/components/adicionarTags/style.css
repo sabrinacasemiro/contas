@@ -1,0 +1,39 @@
+.tags-wrapper {
+    height: 30px;
+    width: 100%;
+    border: 1px solid #53A9FF8F;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .9em;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.tag {
+    height: 100%;
+    width: 13%;
+    background-color: #53A9FF;
+    border: 1px solid #53A9FF8F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+.cancelar-tag {
+    font-size: .6em;
+}
+
+.adicionar-tag {
+    height: 100%;
+    width: 35%;
+    border: 1px solid #53A9FF8F;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #53A9FF;
+}

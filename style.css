@@ -1,4 +1,4 @@
-.container {
+/* .container {
     height: 100%;
     width: 100%;
     background-color: #F2F2F2;
@@ -613,7 +613,7 @@
 }
 
 .valor-total-receita {
-    height: 25%;
+    height: 29%;
     width: 100%;
     background-color: #EEEEEE;
     display: flex;
@@ -826,4 +826,4 @@
 
 .observacao-despesa::placeholder{
     color: #707070;
-}
+} */

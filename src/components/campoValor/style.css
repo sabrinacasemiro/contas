@@ -1,0 +1,14 @@
+.valor-total-receita {
+    height: 202px;
+    width: 100%;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.cifrao-receita {
+    font-weight: 700;
+}
+
