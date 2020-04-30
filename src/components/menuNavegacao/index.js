@@ -13,8 +13,6 @@ const MenuNavegacao = {
         const iconeMenu2 = Elemento({tipo: 'button', classes: ['fas', 'fa-crosshairs', 'icone-menu']});
         const iconeMenu3 = Elemento({tipo: 'button', classes: ['fas', 'fa-crosshairs', 'icone-menu']});
 
-        botaoMenu.addEventListener('click', handleClickBotaoMenu);
-
         menuWrapper.appendChild(iconeMenu0);
         menuWrapper.appendChild(iconeMenu1);
         menuWrapper.appendChild(botaoMenu);
@@ -29,13 +27,4 @@ const MenuNavegacao = {
         $menuWrapper.remove();
     }
 }
-
-const handleClickBotaoMenu = () => {
-    const $container = document.querySelector('.container');
-    $container.innerHTML = '';
-
-    const despesa = Despesa.build();
-    $container.appendChild(despesa);
-}    
-
 export default MenuNavegacao;
